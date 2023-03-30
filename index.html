@@ -515,17 +515,20 @@
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
     const message = document.getElementById('message').value;
-  })
+    const body = 'name:' +name + '<br/> email' +email + '<br/> Phone no:' +phone + '<br/> message:' +message;
 
-  Email.send({
-    SecureToken : "24d9503d-676d-40d4-8b36-07d3b1b6b5b7 ",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
+    Email.send({
+    SecureToken : "65d63860-65b9-4549-8003-8b1c39ef8ea6",
+    To : 'oziomaegole@gmail.com',
+    From : "oziomaegole@gmail.com",
+    Subject : "contact message",
+    Body : body
     }).then(
     message => alert(message)
 );
+  })
+
+  
 </script>
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
