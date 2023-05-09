@@ -136,6 +136,9 @@ body{
     width: 2rem;
 }
 
+.ugo1{
+    width: 5rem;
+}
 
 @media screen and (max-width: 480px){
 .home-img{
