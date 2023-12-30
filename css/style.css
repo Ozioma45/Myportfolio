@@ -1,176 +1,58 @@
-/* .nav-link:hover{
-    color: #000;
+.emoji {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  overflow: hidden;
 }
 
-body{
-    max-width: 100%;
-}
-.main-home{
-    max-width: 100%;
+.home-img {
+  flex: 1 1;
+  position: relative;
 }
 
-.nav-link{
-    color: #800020;
+.text-cont {
+  flex: 1 1;
+  position: relative;
 }
 
-.emoji{
-    width: 10rem;
-    position: absolute;
-    top: 25%;
-    transform: rotate(-20deg);
+.btn {
+  transition: 0.5s;
 }
 
-.fram-1, .fram-2{
-    width: 30rem;
+.btn:hover,
+.conta-btn:hover {
+  background-color: #f1f1f1;
+  color: #800020;
+  font-weight: bolder;
 }
 
-.fram-2{
-    transform: rotate(30deg);
+.conta-btn {
+  color: #f1f1f1;
 }
 
-.fram-3{
-    left: 63%;
+.skills {
+  width: 2rem;
 }
 
-@media screen and (max-width: 900px){
-    .main-home{
-        display: flex;
-        flex-direction: column;
-        gap: 30rem;
-    }
-
-    .emoji{
-        width: 10rem;
-        position: absolute;
-        top: 25%;
-        transform: rotate(-20deg);
-    }
-
-    .home-img{
-        transform: scale(.6);
-    }
-    
-    .fram-1, .fram-2, .fram-3{
-        width: 20rem;
-        left: 2rem;
-    }
-    
-    .fram-1, .fram-2{
-        width: 30rem;
-    }
-    
-    .fram-3{
-        left: 10%;
-    }    
-}
- */
-
- .fram-1{
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        left: 3%;
-        position: inherit;
-        
- }
-
- .emoji{
-    -webkit-transform: scale(.5);
-    transform: scale(.5);
-    overflow: hidden;
-
+.ugo1 {
+  width: 5rem;
 }
 
-.fram-2{
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9) rotate(30deg);
+.hero-img {
+  border-radius: 30px;
 }
+@media screen and (max-width: 480px) {
+  .home-img {
+    padding: 0 3rem;
+  }
 
-.fram-3{
-    -webkit-transform: scale(.9);
-    transform: scale(.9);
-    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.26);
-}
-
-.home-img{
-    flex: 1 1;
-    position: relative;
-}
-
-.text-cont{
-        flex: 1 1;
-        position: relative;
-}
-
-.emoji, .fram-2, .fram-3{
-    width: 20rem;
-    position: absolute;
-}
-
-.fram-3{
-    width: 25rem;
-    left: 8%;
-    /* top: 10%; */
-}
-
-.emoji{
-    top: -5%;
-    left: -10%;
-}
-
-.btn{
-    transition: 0.5s;
-
-}
-
-.btn:hover , .conta-btn:hover{
-    background-color: #f1f1f1;
-    color: #800020;
-    font-weight: bolder;
-}
-
-.conta-btn{
-    color: #f1f1f1;
-}
-
-.skills{
-    width: 2rem;
-}
-
-.ugo1{
-    width: 5rem;
-}
-
-@media screen and (max-width: 480px){
-.home-img{
-        left: -5rem;
-        -webkit-transform: scale(.6);
-        transform: scale(.6);
-}
-
-.main-home {
+  .main-home {
     flex-direction: column;
+  }
 }
 
-.fram-3{
-    left: 30%;
+@media screen and (max-width: 780px) {
+  .text-cont {
+    background-color: rgba(255, 255, 255, 0.589);
+    font-weight: bolder;
+  }
 }
-
-.emoji{
-    left: 10%;
-    top: -5%;
-    transform: scale(.3);
-}
-
-
-}
-
-@media screen and (max-width: 780px){
-    .text-cont{
-        background-color: rgba(255, 255, 255, 0.589);
-        font-weight: bolder;
-    }
-    }    
-
-
-
-    

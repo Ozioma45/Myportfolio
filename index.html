@@ -1,518 +1,735 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Personal Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/main.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="bg-light">
+  <head>
+    <title>Personal Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-light">
+    <!--TESTING STARTS-->
 
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md bg-light shadow-sm fixed-top">
+      <div class="container-lg">
+        <a class="navbar-brand text-black fw-bold fs-4" href="#">
+          <span class="text-danger">O</span>zi.
+        </a>
 
-  <!--TESTING STARTS-->
-
-<!--navbar-->
-<nav class="navbar navbar-expand-md bg-light shadow-sm fixed-top">
-  <div class="container-lg">
-    <a class="navbar-brand text-black fw-bold fs-4" href="#">
-      <span class="text-danger">O</span>zi.
-    </a>
-
-      <!--toggle button for mobile nav-->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-      data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" 
-      aria-label="Toggle navigation">
+        <!--toggle button for mobile nav-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-      </button>
+        </button>
 
-            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-              <ul class="navbar-nav fw-bold">
-                <li class="nav-item me-5">
-                  <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item me-5">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item me-5">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item me-5">
-                  <a class="nav-link" href="#testimonials">Testimonial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="btn btn-danger conta-btn rounded-3 nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-      
-  </div>
-</nav>
-
-<!--Home section starts here-->
-  <section id="home" class="py-5">
-    <div class="container-lg">
-      <div class="row max-vh-100 align-items-center align-content-center main-home">
-        <div class="col-md-6 mt-5 mt-md-0 home-img">
-          <!-- <div class="home-img text-center d-flex "> -->
-            <!-- <img src="img/profile.png" alt="profile img" class="rounded- circle mw-100 align-self-end"> -->
-            <img src="img/Untitled-1.png" alt="red-frame" class="h-img img-fluid fram-2">
-            <img src="img/2.png" alt="yello-frame" class="h-img img-fluid fram-1 ">
-            <img src="img/pngwing.com.png" alt="Emoji" class="h-img img-fluid emoji">
-            <img src="img/me.png" alt="my Profile" class="h-img img-fluid fram-3 ">
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav">
+          <ul class="navbar-nav fw-bold">
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="#testimonials">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-danger conta-btn rounded-3 nav-link"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
 
-        <div class="col-md-6 mt-5 mt-md-0 order-md-first text-center text-sm-start text-cont">
-          <div class="home-text">
-            <p class="text-muted mb-1">Hello I'm</p>
-            <h1 class="text-danger text-uppercase fs-1 fw-bold">Ozioma Egole</h1>
-            <h2 class="fs-4">Front_end Developer</h2>
-            <p mt-4 text-muted>An advancing self-taught FrontEnd developer. I design and code beautifully web solutions, and I love what I do.</p>
+    <!--Home section starts here-->
+    <section id="home" class="py-5 mt-5">
+      <div class="container-lg">
+        <div
+          class="row max-vh-100 align-items-center align-content-center main-home mt-5">
+          <div class="col-md-6 mt-5 mt-md-0 home-img">
+            <img
+              src="img/comp.jpg"
+              alt="Hero Page"
+              class="h-img img-fluid hero-img" />
+          </div>
+
+          <div
+            class="col-md-6 mt-5 mt-md-0 order-md-first text-center text-sm-start text-cont">
+            <div class="home-text">
+              <p class="text-muted mb-1">Hello I'm</p>
+              <h1 class="text-danger text-uppercase fs-1 fw-bold">
+                Ozioma Egole
+              </h1>
+              <h2 class="fs-4">Front_end Developer</h2>
+              <p mt-4 text-muted>
+                An advancing self-taught FrontEnd developer. I design and code
+                beautifully web solutions, and I love what I do.
+              </p>
               <a href="#portfolio" class="btn btn-danger px-3 mt-3">My works</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-<!--about section starts-->
-
-  <section id="about" class="py-5">
-    <div class="container-lg py-5">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">About Me</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="about-text p-3 mb-2 shadow-sm">
-            <h3 class="fs-4 fw-bold">I'm a junior front-end developer based in Nigeria</h3>
-            <p class="text-muted fs-5">
-              I create intuitive, accessible, and visually stunning web solutions to positively impact people's lives.
-              I'm also a music-loving drummer and enjoy playing chess, which inspires my problem-solving and attention to detail.<br>
-              My ultimate goal is to leverage my skills and knowledge 
-              to drive meaningful change in the online world, one project at a time.
-          </div>
-          
-          <div class="row">
-            <div class="col-lg-12 d-flex align-items-center">
-              <a href="img/cv.pdf" class="btn btn-danger me-5 px-3" download="">Download CV</a>
-              <div class="social-links">
-                <a href="https://web.facebook.com/ozioma.egole.7/" class="text-dark me-2" target="_blank"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com/theoziomaegole/" class="text-dark me-2" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://twitter.com/theoziomaegole" class="text-dark me-2" target="_blank"><i class="bi bi-twitter"></i></a>
-                <a href="https://github.com/Ozioma45" class="text-dark" target="_blank"><i class="bi bi-github"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-5 mt-md-0">
-          <h3 class="fs-4 fw-bold pt-md-3 mb-md-4">Languages and tools</h3>
-          <div class="row">
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/html.png" alt="html" class="img-fluid skills">
-              <span class="fw-bold">HTML</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/css.png" alt="html" class="img-fluid skills me-2">
-              <span class="fw-bold">CSS</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/js.png" alt="html" class="img-fluid skills">
-              <span class="fw-bold">Javascript</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/bootstrap.png" alt="html" class="img-fluid skills">
-              <span class="fw-bold">Bootstrap</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/git.png" alt="html" class="img-fluid skills me-2">
-              <span class="fw-bold">Git</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/github.png" alt="html" class="img-fluid skills">
-              <span class="fw-bold">Github</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/wordpress.png" alt="html" class="img-fluid skills me-2">
-              <span class="fw-bold">Wordpress</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/ps.png" alt="html" class="img-fluid skills me-2">
-              <span class="fw-bold">Photoshop</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/ai.png" alt="html" class="img-fluid skills me-2">
-              <span class="fw-bold">Illustrator</span>
-            </div>
-            <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
-              <img src="img/corel.png" alt="html" class="img-fluid skills me-2">
-              <span class="fw-bold">Corel Draw</span>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-<!--about section ends-->
+    <!--about section starts-->
 
-
-<!--Portfolio Section starts-->
-  <section id="portfolio" class="py-5">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5" data-mdb-toggle="animation"
-            data-mdb-animation-start="onScroll"
-            data-mdb-animation="fade-in">Latest Works</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
-          <div class="portfolio-item">
-            <img src="img/portfolio/estate.png" alt="Portfolio Item" class="w-100 img-thumbnail ">
-            <h3 class="text-capitalize fs-5 my-2">Build.con Landing Page</h3>
-            <div>
-              <span>
-                <i class="bi bi-github text-danger"></i>
-                <span class="mb-4"><a href="https://github.com/Ozioma45/Bootstrap_Journey/tree/main/sub/Estate_landing-page" class="text-danger text-decoration-none" target="_blank">View code</a></span>
-              </span>
-              <span>
-                <i class="bi bi-box-arrow-in-up-right text-danger"></i>
-                <span class="mb-4"><a href="https://ozioma45.github.io/Bootstrap_Journey/sub/Estate_landing-page/" class="text-danger text-decoration-none" target="_blank">Live Preview</a></span>
-              </span>
-            </div>
-
-          </div>
-
-        </div>
-        <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
-          <div class="portfolio-item">
-            <img src="img/portfolio/booksite.png" alt="Portfolio Item" class="w-100 img-thumbnail">
-            <h3 class="text-capitalize fs-5 my-2">Blacklist Ebook Website</h3>
-            <div>
-              <span>
-                <i class="bi bi-github text-danger"></i>
-                <span class="mb-4"><a href="https://github.com/Ozioma45/Bootstrap_Journey/tree/main/Main" class="text-danger text-decoration-none" target="_blank">View code</a></span>
-              </span>
-              <span>
-                <i class="bi bi-box-arrow-in-up-right text-danger"></i>
-                <span class="mb-4"><a href="https://ozioma45.github.io/Bootstrap_Journey/Main/" class="text-danger text-decoration-none" target="_blank">Live Preview</a></span>
-              </span>
+    <section id="about" class="py-5">
+      <div class="container-lg py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
             </div>
           </div>
         </div>
 
-
-        <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
-          <div class="portfolio-item">
-            <img src="img/portfolio/portfolio.png" alt="Portfolio Item" class="w-100 img-thumbnail">
-            <h3 class="text-capitalize fs-5 my-2">Portfolio Website</h3>
-            <div>
-              <span>
-                <i class="bi bi-github text-danger"></i>
-                <span class="mb-4"><a href="https://github.com/Ozioma45/Bootstrap_Journey/tree/main/sub/portfolio_website" class="text-danger text-decoration-none" target="_blank">View code</a></span>
-              </span>
-              <span>
-                <i class="bi bi-box-arrow-in-up-right text-danger"></i>
-                <span class="mb-4"><a href="https://ozioma45.github.io/Bootstrap_Journey/sub/portfolio_website/" class="text-danger text-decoration-none" target="_blank">Live Preview</a></span>
-              </span>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-6 col-lg-4 mt-5">
-          <div class="portfolio-item">
-            <img src="img/portfolio/profle-card.png" alt="Portfolio Item" class="w-100 img-thumbnail">
-            <h3 class="text-capitalize fs-5 my-2">Profile Card</h3>
-            <div>
-              <span>
-                <i class="bi bi-github text-danger"></i>
-                <span class="mb-4"><a href="https://github.com/Ozioma45/Frontendmentor_challenges/tree/main/profile-card-component-main" class="text-danger text-decoration-none" target="_blank">View code</a></span>
-              </span>
-              <span>
-                <i class="bi bi-box-arrow-in-up-right text-danger"></i>
-                <span class="mb-4"><a href="https://ozioma45.github.io/Frontendmentor_challenges/profile-card-component-main/" class="text-danger text-decoration-none" target="_blank">Live Preview</a></span>
-              </span>
-            </div>
-          </div>
-
-
-
-        </div>
-        <div class="col-md-6 col-lg-4 mt-5">
-          <div class="portfolio-item">
-            <img src="img/portfolio/nft.png" alt="Portfolio Item" class="w-100 img-thumbnail">
-            <h3 class="text-capitalize fs-5 my-2">Nft Product Card</h3>
-            <div>
-              <span>
-                <i class="bi bi-github text-danger"></i>
-                <span class="mb-4"><a href="https://github.com/Ozioma45/Frontendmentor_challenges/tree/main/nft-preview-card-component-main" class="text-danger text-decoration-none" target="_blank">View code</a></span>
-              </span>
-              <span>
-                <i class="bi bi-box-arrow-in-up-right text-danger"></i>
-                <span class="mb-4"><a href="https://ozioma45.github.io/Frontendmentor_challenges/nft-preview-card-component-main/" class="text-danger text-decoration-none" target="_blank">Live Preview</a></span>
-              </span>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-6 col-lg-4 mt-5">
-          <div class="portfolio-item">
-            <img src="img/portfolio/doin.png" alt="Portfolio Item" class="w-100 img-thumbnail">
-            <h3 class="text-capitalize fs-5 my-2">Landing Page</h3>
-            <div>
-              <span>
-                <i class="bi bi-github text-danger"></i>
-                <span class="mb-4"><a href="https://github.com/Ozioma45/odins_projects/tree/main/O-landing_page" class="text-danger text-decoration-none" target="_blank">View code</a></span>
-              </span>
-              <span>
-                <i class="bi bi-box-arrow-in-up-right text-danger"></i>
-                <span class="mb-4"><a href="https://ozioma45.github.io/odins_projects/O-landing_page/" class="text-danger text-decoration-none" target="_blank">Live Preview</a></span>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>  
-    </div>
-  </section>
-<!--Portfolio Section ends-->
-
-<!--Freelancer Available section Starts-->
-
-  <section id="freelancer-available" class="py-5 bg-danger">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <p class="text-light fs-5">Do you have any project ?</p>
-          <h2 class="fs-1 text-white mb-4">I'm Available For Freelancer Projects</h2>
-          <a href="#contact"><button class="btn btn-outline-light">Hire me</button></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!--Freelancer Available section ends-->
-
-<!--Testimonials Section ends-->
-
-  <section class="testimonials py-5" id="testimonials">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">Testimonials</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-xl-7">
-          <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"  class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2" class="bg-danger"></button>
-              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3" class="bg-danger"></button>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text p-3 mb-2 shadow-sm">
+              <h3 class="fs-4 fw-bold">
+                I'm a junior front-end developer based in Nigeria
+              </h3>
+              <p class="text-muted fs-5">
+                I create intuitive, accessible, and visually stunning web
+                solutions to positively impact people's lives. I'm also a
+                music-loving drummer and enjoy playing chess, which inspires my
+                problem-solving and attention to detail.<br />
+                My ultimate goal is to leverage my skills and knowledge to drive
+                meaningful change in the online world, one project at a time.
+              </p>
             </div>
 
-          <div class="carousel-inner p-1">
-
-          <!--testi-item starts-->
-          
-          <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
-            <div class="testi-author-info d-flex align-items-center">
-              <img src="img/testimonial/1.jpg" alt="author img" class="img-thumbnail rounded-circle ugo1">
-              <div class="author ms-3">
-                <h3 class="fs-6 mb-1">Mr Emecheta Obinna</h3>
-                <p class="text-muted m-0">Ceo Urdesigner Digital Solution</p>
-              </div>
-            </div>
-            <p class="text-muted mt-3">Ozioma is an exceptional web developer - 
-              knowledgeable, detail-oriented, and professional. I highly recommend 
-              him to anyone in need of a skilled web developer.</p>
-              <div class="ratings text-danger">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-          </div>
-
-          <!--testi-item ends-->
-
-
-          <!--testi-item starts-->
-          
-          <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-            <div class="testi-author-info d-flex align-items-center">
-              <img src="img/testimonial/2.jpg" alt="author img" class="img-thumbnail rounded-circle ugo1">
-              <div class="author ms-3">
-                <h3 class="fs-6 mb-1">Mr Ugochukwu Onyeaka</h3>
-                <p class="text-muted m-0">Founder, Yugee Technology</p>
-              </div>
-            </div>
-            <p class="text-muted mt-3">Ozioma is a true professional with 
-              exceptional expertise in web development. He went above and 
-              beyond to deliver a website that exceeded our expectations. I highly
-               recommend him to 
-              anyone in need of a talented and reliable web developer</p>
-              <div class="ratings text-danger">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-          </div>
-
-          <!--testi-item ends-->
-
-
-          <!--testi-item starts-->
-          
-          <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
-            <div class="testi-author-info d-flex align-items-center">
-              <img src="img/testimonial/3.jpg" alt="author img" class="img-thumbnail rounded-circle ugo1">
-              <div class="author ms-3">
-                <h3 class="fs-6 mb-1">Miss Jennifer Ugwuoke</h3>
-                <p class="text-muted m-0">Graphic Designer</p>
-              </div>
-            </div>
-            <p class="text-muted mt-3">Ozioma is an extremely talented web 
-              developer who turned my vision into reality. He was patient, 
-              professional, and provided valuable insights throughout the process. 
-              I highly recommend Ozioma to anyone in need of an exceptional website</p>
-              <div class="ratings text-danger">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-          </div>
-
-          <!--testi-item ends-->
-
-          </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!--Testimonials Section Starts-->
-
-<!--Contact section starts-->
-
-  <section id="contact" class="contact py-5">
-    <div class="container-lg py-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-title text-center">
-            <h2 class="fw-bold mb-5">Contact Me</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <div class="contact-item d-flex mb-3">
-            <div class="icon fs-4 text-danger">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div class="text ms-3">
-              <h3 class="fs-4">Email</h3>
-              <p class="text-muted">oziomaegole@gmail.com</p>
-            </div>
-          </div>
-
-          <div class="contact-item d-flex mb-3">
-            <div class="icon fs-4 text-danger">
-              <i class="fas fa-phone"></i>
-            </div>
-            <div class="text ms-3">
-              <h3 class="fs-4">Phone</h3>
-              <p class="text-muted">+234 (0) 816 636 6670</p>
-            </div>
-          </div>
-          <div class="contact-item d-flex mb-3">
-            <div class="icon fs-4 text-danger">
-              <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <div class="text ms-3">
-              <h3 class="fs-4">Visit Office</h3>
-              <p class="text-muted">3 nwanze street, Asaba</p>
-            </div>
-          </div>
-        </div>
-
-        
-        <div class="col-md-7">
-          <div class="contact-form">
-            <form action="https://formspree.io/f/xbjezgnk" method="post">
-              <div class="row">
-                <div class="col-lg-6 mb-4">
-                  <input type="text" placeholder="Your name" name="name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
-                </div>
-                <div class="col-lg-6 mb-4">
-                  <input type="text" placeholder="Your Email" name="email" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a
+                  href="img/cv.pdf"
+                  class="btn btn-danger me-5 px-3"
+                  download=""
+                  >Download CV</a
+                >
+                <div class="social-links">
+                  <a
+                    href="https://web.facebook.com/ozioma.egole.7/"
+                    class="text-dark me-2"
+                    target="_blank"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/theoziomaegole/"
+                    class="text-dark me-2"
+                    target="_blank"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a
+                    href="https://twitter.com/theoziomaegole"
+                    class="text-dark me-2"
+                    target="_blank"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    href="https://github.com/Ozioma45"
+                    class="text-dark"
+                    target="_blank"
+                    ><i class="bi bi-github"></i
+                  ></a>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-12 mb-4">
-                  <input type="text" placeholder="Subject" name="subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 mb-4">
-                  <textarea placeholder="Your Message" name="message" rows="5" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
-                </div>
-              </div>
-              
-              
+            </div>
+          </div>
 
-              <div class="row">
-                <div class="col-lg-12">
-                  <button class="btn btn-danger px-3" id="submit" type="submit">Send Message</button>
-                </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <h3 class="fs-4 fw-bold pt-md-3 mb-md-4">Languages and tools</h3>
+            <div class="row">
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img src="img/html.png" alt="html" class="img-fluid skills" />
+                <span class="fw-bold">HTML</span>
               </div>
-            </form>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img
+                  src="img/css.png"
+                  alt="html"
+                  class="img-fluid skills me-2" />
+                <span class="fw-bold">CSS</span>
+              </div>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img src="img/js.png" alt="html" class="img-fluid skills" />
+                <span class="fw-bold">Javascript</span>
+              </div>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img
+                  src="img/bootstrap.png"
+                  alt="html"
+                  class="img-fluid skills" />
+                <span class="fw-bold">Bootstrap</span>
+              </div>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img
+                  src="img/git.png"
+                  alt="html"
+                  class="img-fluid skills me-2" />
+                <span class="fw-bold">Git</span>
+              </div>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img src="img/github.png" alt="html" class="img-fluid skills" />
+                <span class="fw-bold">Github</span>
+              </div>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img
+                  src="img/wordpress.png"
+                  alt="html"
+                  class="img-fluid skills me-2" />
+                <span class="fw-bold">Wordpress</span>
+              </div>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img
+                  src="img/ps.png"
+                  alt="html"
+                  class="img-fluid skills me-2" />
+                <span class="fw-bold">Photoshop</span>
+              </div>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img
+                  src="img/ai.png"
+                  alt="html"
+                  class="img-fluid skills me-2" />
+                <span class="fw-bold">Illustrator</span>
+              </div>
+              <div class="col-sm-4 col-6 d-flex align-items-center mb-4 shadow">
+                <img
+                  src="img/corel.png"
+                  alt="html"
+                  class="img-fluid skills me-2" />
+                <span class="fw-bold">Corel Draw</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-<!--Contact section ends-->
+    <!--about section ends-->
 
-<!--Footer section starts here-->
-<footer class="footer border-top py-4 shadow-sm">
-  <div class="container-lg">
-    <div class="row">
-      <div class="col-lg-12">
-        <p class="m-0 text-center text-muted">&copy; 2023 theoziomaegole</p>
+    <!--Portfolio Section starts-->
+    <section id="portfolio" class="py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2
+                class="fw-bold mb-5"
+                data-mdb-toggle="animation"
+                data-mdb-animation-start="onScroll"
+                data-mdb-animation="fade-in">
+                Latest Works
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/estate.png"
+                alt="Portfolio Item"
+                class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2">Build.con Landing Page</h3>
+              <div>
+                <span>
+                  <i class="bi bi-github text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://github.com/Ozioma45/Bootstrap_Journey/tree/main/sub/Estate_landing-page"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >View code</a
+                    ></span
+                  >
+                </span>
+                <span>
+                  <i class="bi bi-box-arrow-in-up-right text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://ozioma45.github.io/Bootstrap_Journey/sub/Estate_landing-page/"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >Live Preview</a
+                    ></span
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/booksite.png"
+                alt="Portfolio Item"
+                class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2">Blacklist Ebook Website</h3>
+              <div>
+                <span>
+                  <i class="bi bi-github text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://github.com/Ozioma45/Bootstrap_Journey/tree/main/Main"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >View code</a
+                    ></span
+                  >
+                </span>
+                <span>
+                  <i class="bi bi-box-arrow-in-up-right text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://ozioma45.github.io/Bootstrap_Journey/Main/"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >Live Preview</a
+                    ></span
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mt-5 mt-md-0">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/portfolio.png"
+                alt="Portfolio Item"
+                class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2">Portfolio Website</h3>
+              <div>
+                <span>
+                  <i class="bi bi-github text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://github.com/Ozioma45/Bootstrap_Journey/tree/main/sub/portfolio_website"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >View code</a
+                    ></span
+                  >
+                </span>
+                <span>
+                  <i class="bi bi-box-arrow-in-up-right text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://ozioma45.github.io/Bootstrap_Journey/sub/portfolio_website/"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >Live Preview</a
+                    ></span
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mt-5">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/profle-card.png"
+                alt="Portfolio Item"
+                class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2">Profile Card</h3>
+              <div>
+                <span>
+                  <i class="bi bi-github text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://github.com/Ozioma45/Frontendmentor_challenges/tree/main/profile-card-component-main"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >View code</a
+                    ></span
+                  >
+                </span>
+                <span>
+                  <i class="bi bi-box-arrow-in-up-right text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://ozioma45.github.io/Frontendmentor_challenges/profile-card-component-main/"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >Live Preview</a
+                    ></span
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/nft.png"
+                alt="Portfolio Item"
+                class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2">Nft Product Card</h3>
+              <div>
+                <span>
+                  <i class="bi bi-github text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://github.com/Ozioma45/Frontendmentor_challenges/tree/main/nft-preview-card-component-main"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >View code</a
+                    ></span
+                  >
+                </span>
+                <span>
+                  <i class="bi bi-box-arrow-in-up-right text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://ozioma45.github.io/Frontendmentor_challenges/nft-preview-card-component-main/"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >Live Preview</a
+                    ></span
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mt-5">
+            <div class="portfolio-item">
+              <img
+                src="img/portfolio/doin.png"
+                alt="Portfolio Item"
+                class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2">Landing Page</h3>
+              <div>
+                <span>
+                  <i class="bi bi-github text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://github.com/Ozioma45/odins_projects/tree/main/O-landing_page"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >View code</a
+                    ></span
+                  >
+                </span>
+                <span>
+                  <i class="bi bi-box-arrow-in-up-right text-danger"></i>
+                  <span class="mb-4"
+                    ><a
+                      href="https://ozioma45.github.io/odins_projects/O-landing_page/"
+                      class="text-danger text-decoration-none"
+                      target="_blank"
+                      >Live Preview</a
+                    ></span
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</footer>
-<!--Footer section ends here-->
+    </section>
+    <!--Portfolio Section ends-->
 
+    <!--Freelancer Available section Starts-->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <section id="freelancer-available" class="py-5 bg-danger">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="text-light fs-5">Do you have any project ?</p>
+            <h2 class="fs-1 text-white mb-4">
+              I'm Available For Freelancer Projects
+            </h2>
+            <a href="#contact"
+              ><button class="btn btn-outline-light">Hire me</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Freelancer Available section ends-->
+
+    <!--Testimonials Section ends-->
+
+    <section class="testimonials py-5" id="testimonials">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carousel1"
+                  data-bs-slide-to="0"
+                  class="active bg-danger"
+                  aria-current="true"
+                  aria-label="Slide 1"></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel1"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                  class="bg-danger"></button>
+                <button
+                  type="button"
+                  data-bs-target="#carousel1"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                  class="bg-danger"></button>
+              </div>
+
+              <div class="carousel-inner p-1">
+                <!--testi-item starts-->
+
+                <div
+                  class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/1.jpg"
+                      alt="author img"
+                      class="img-thumbnail rounded-circle ugo1" />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Mr Emecheta Obinna</h3>
+                      <p class="text-muted m-0">
+                        Ceo Urdesigner Digital Solution
+                      </p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Ozioma is an exceptional web developer - knowledgeable,
+                    detail-oriented, and professional. I highly recommend him to
+                    anyone in need of a skilled web developer.
+                  </p>
+                  <div class="ratings text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+                <!--testi-item ends-->
+
+                <!--testi-item starts-->
+
+                <div
+                  class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/2.jpg"
+                      alt="author img"
+                      class="img-thumbnail rounded-circle ugo1" />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Mr Ugochukwu Onyeaka</h3>
+                      <p class="text-muted m-0">Founder, Yugee Technology</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Ozioma is a true professional with exceptional expertise in
+                    web development. He went above and beyond to deliver a
+                    website that exceeded our expectations. I highly recommend
+                    him to anyone in need of a talented and reliable web
+                    developer
+                  </p>
+                  <div class="ratings text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+                <!--testi-item ends-->
+
+                <!--testi-item starts-->
+
+                <div
+                  class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                  <div class="testi-author-info d-flex align-items-center">
+                    <img
+                      src="img/testimonial/3.jpg"
+                      alt="author img"
+                      class="img-thumbnail rounded-circle ugo1" />
+                    <div class="author ms-3">
+                      <h3 class="fs-6 mb-1">Miss Jennifer Ugwuoke</h3>
+                      <p class="text-muted m-0">Graphic Designer</p>
+                    </div>
+                  </div>
+                  <p class="text-muted mt-3">
+                    Ozioma is an extremely talented web developer who turned my
+                    vision into reality. He was patient, professional, and
+                    provided valuable insights throughout the process. I highly
+                    recommend Ozioma to anyone in need of an exceptional website
+                  </p>
+                  <div class="ratings text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+
+                <!--testi-item ends-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials Section Starts-->
+
+    <!--Contact section starts-->
+
+    <section id="contact" class="contact py-5">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-4">Email</h3>
+                <p class="text-muted">oziomaegole@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-4">Phone</h3>
+                <p class="text-muted">+234 (0) 816 636 6670</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-4">Visit Office</h3>
+                <p class="text-muted">3 nwanze street, Asaba</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/xbjezgnk" method="post">
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Your name"
+                      name="name"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm" />
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Your Email"
+                      name="email"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                      required />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      name="subject"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea
+                      placeholder="Your Message"
+                      name="message"
+                      rows="5"
+                      class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button
+                      class="btn btn-danger px-3"
+                      id="submit"
+                      type="submit">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact section ends-->
+
+    <!--Footer section starts here-->
+    <footer class="footer border-top py-4 shadow-sm">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-muted">&copy; 2023 theoziomaegole</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer section ends here-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
